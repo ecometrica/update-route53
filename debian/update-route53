@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# ifup hook script for updating Amazon's Route 53
+#
+
+CMD=/root/bin/update-route53.py
+
+[ -x "$CMD" ] || exit 0
+
+case "$MODE" in 
+start)
+    "$CMD"
+    ;;
+esac
