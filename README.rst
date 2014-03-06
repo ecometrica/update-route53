@@ -84,7 +84,7 @@ Create a ``/root/.boto`` configuration file containing::
 Make sure the ``/root/.boto`` file has the right permissions. Under
 Unix, you'll want::
 
-    $ sudo chmod 0600 /root.boto
+    $ sudo chmod 0600 /root/.boto
 
     
 
